@@ -9,7 +9,7 @@ int main() {
     int userGuess = 0;
     
     std::cout << "Welcome to the Number Guessing Game!" << std::endl;
-    std::cout << "You have to select a number between 1 and 100." << std::endl;
+    std::cout << "I have selected a number between 1 and 50." << std::endl;
 
     while (true) {
         std::cout << "Enter your guess: ";
@@ -20,7 +20,7 @@ int main() {
         } else if (userGuess < randomNumber) {
             std::cout << "Too low! Try again." << std::endl;
         } else {
-            std::cout << "Congratulations! You guessed the correct number!" << std::endl;
+            std::cout << "Congratulations! You guessed the correct number! Thanks for playing." << std::endl;
             break;
         }
     }
